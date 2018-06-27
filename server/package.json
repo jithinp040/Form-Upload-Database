@@ -1,0 +1,35 @@
+{
+  "name": "crud-mysql",
+  "version": "1.0.0",
+  "description": "Node.js CRUD application using MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "crud",
+    "mysql"
+  ],
+  "author": "Mukesh Chapagain",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-flash": "0.0.2",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.15.3",
+    "express-validate": "0.0.8",
+    "express-validator": "^3.2.0",
+    "method-overload": "^0.1.1",
+    "method-override": "^2.3.10",
+    "mysql": "^2.13.0",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {}
+}
